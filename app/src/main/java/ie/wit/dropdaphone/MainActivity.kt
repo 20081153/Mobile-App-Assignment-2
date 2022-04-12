@@ -1,4 +1,4 @@
-package ie.wit.findafive
+package ie.wit.dropdaphone
 
 import android.os.Bundle
 import android.view.Menu
@@ -11,8 +11,9 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
+import ie.wit.findafive.R
 import ie.wit.findafive.databinding.ActivityMainBinding
-//mmm code
+//mmm code yummy
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration

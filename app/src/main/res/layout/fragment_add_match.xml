@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.add_match.AddMatchFragment">
+    tools:context="ie.wit.dropdaphone.ui.add_match.AddMatchFragment">
 
     <TextView
         android:id="@+id/text_gallery"

@@ -1,4 +1,4 @@
-package ie.wit.findafive.ui.add_match
+package ie.wit.dropdaphone.ui.add_match
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import ie.wit.findafive.databinding.FragmentAddMatchBinding
-import ie.wit.findafive.ui.add_match.AddMatchViewModel
+import ie.wit.dropdaphone.ui.add_match.AddMatchViewModel
 
 class AddMatchFragment : Fragment() {
 

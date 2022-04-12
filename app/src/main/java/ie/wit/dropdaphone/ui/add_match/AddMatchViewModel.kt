@@ -1,13 +1,13 @@
-package ie.wit.findafive.ui.about
+package ie.wit.dropdaphone.ui.add_match
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class AboutViewModel : ViewModel() {
+class AddMatchViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is slideshow Fragment"
+        value = "This is add match Fragment"
     }
     val text: LiveData<String> = _text
 }

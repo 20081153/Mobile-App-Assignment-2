@@ -11,8 +11,10 @@
     <string name="menu_add_match">Add a Match</string>
     <string name="menu_about">About Us</string>
     <string name="select_location">Select Location</string>
-    <string name="date_and_time">Date and Time</string>
+    <string name="date">Date</string>
     <string name="amount_of_players">Amount of Players</string>
     <string name="team_logo">Team Logo</string>
     <string name="add_match">Add Match</string>
+    <string name="enter_ya_name">Name</string>
+    <string name="favorite_color">Favorite Color</string>
 </resources>
