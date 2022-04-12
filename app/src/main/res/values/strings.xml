@@ -15,4 +15,8 @@
     <string name="amount_of_players">Amount of Players</string>
     <string name="team_logo">Team Logo</string>
     <string name="add_match">Add Match</string>
+    <string name="input_Name">Name</string>
+    <string name="input_date">Date</string>
+    <string name="input_color">Favorite Color</string>
+
 </resources>
