@@ -4,21 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF5722"
+    android:background="#9C27B0"
     tools:context=".ui.about.AboutFragment">
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="490dp"
-        android:layout_height="1065dp"
-        android:backgroundTint="#000000"
-        android:src="@drawable/common_google_signin_btn_text_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/m26vx"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.392"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.616" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/EnterLeaderboard"
@@ -33,7 +30,7 @@
         app:layout_constraintVertical_bias="0.86" />
 
     <EditText
-        android:id="@+id/editTextDate2"
+        android:id="@+id/input_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#000000"
@@ -41,28 +38,45 @@
         android:fontFamily="sans-serif-black"
         android:hint="@string/input_date"
         android:inputType="date"
+        android:textColorHint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="@string/input_height"
+        android:inputType="date"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/InputName"
         android:layout_width="210dp"
         android:layout_height="40dp"
-        android:layout_marginStart="102dp"
-        android:layout_marginTop="266dp"
-        android:layout_marginEnd="99dp"
-        android:layout_marginBottom="37dp"
         android:backgroundTint="#000000"
         android:fontFamily="sans-serif-black"
         android:hint="@string/input_Name"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toTopOf="@+id/editTextDate2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.392" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
